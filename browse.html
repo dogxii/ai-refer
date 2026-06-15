@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Browse Packs - AI Refer</title>
+    <meta
+      name="description"
+      content="Browse AI Refer reference packs for UI generation, product design, and code architecture."
+    />
+    <link rel="icon" href="assets/ai-refer-mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="icon-button nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </button>
+
+      <a class="brand" href="./" aria-label="AI Refer home">
+        <img src="assets/ai-refer-mark.svg" alt="" />
+        <span>AI Refer</span>
+      </a>
+
+      <label class="search">
+        <span class="sr-only">Search packs</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m21 21-4.3-4.3M10.8 18a7.2 7.2 0 1 1 0-14.4 7.2 7.2 0 0 1 0 14.4Z" />
+        </svg>
+        <input id="searchInput" type="search" autocomplete="off" placeholder="Search packs and rules" />
+      </label>
+
+      <nav class="top-links" aria-label="Project links">
+        <a href="./">Home</a>
+        <a href="llms.txt">llms.txt</a>
+        <a href="ai-index.json">Index</a>
+        <a href="docs/usage.md">Usage</a>
+      </nav>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" id="sidebar" aria-label="Reference packs">
+        <div class="sidebar-head">
+          <p class="eyebrow">Reference Packs</p>
+          <p id="packCount" class="pack-count">Loading</p>
+        </div>
+        <nav id="packNav" class="pack-nav"></nav>
+      </aside>
+
+      <main class="reader" id="reader" tabindex="-1">
+        <section class="loading-state" aria-live="polite">
+          <div class="loading-mark"></div>
+          <p>Loading AI Refer</p>
+        </section>
+      </main>
+
+      <aside class="toc-panel" aria-label="On this page">
+        <div class="toc-head">
+          <p class="eyebrow">On This Page</p>
+        </div>
+        <nav id="toc" class="toc"></nav>
+      </aside>
+    </div>
+
+    <div class="scrim" id="scrim" hidden></div>
+    <script type="module" src="assets/site.js"></script>
+  </body>
+</html>

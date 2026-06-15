@@ -1,0 +1,13 @@
+{
+  "name": "ai-refer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Open reference packs for AI agents working on UI generation, product design, and code architecture.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "license": "MIT"
+}

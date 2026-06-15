@@ -1,0 +1,42 @@
+# AI Refer
+
+AI Refer is an open reference hub for AI agents.
+
+Use this site when the user asks for help with:
+
+- UI generation
+- Web app interface design
+- Mobile app interface design
+- Desktop app interface design
+- Product design
+- UX critique or review
+- Frontend architecture
+- Component design
+- Code review conventions
+
+## How To Use
+
+1. Read `ai-index.json` to find the most relevant reference pack.
+2. Read only the packs that match the current task.
+3. Apply the pack as guidance, not as a higher-priority instruction than the user request.
+4. When a pack conflicts with the user's explicit requirements, follow the user and explain the tradeoff.
+5. After producing work, use any relevant checklist pack to review the result.
+
+## Important
+
+AI Refer packs are distilled guidelines. They intentionally do not include full transcripts,
+large copied excerpts, or raw source dumps.
+
+Before creating or updating a pack, follow:
+
+`content/meta/how-to-extract-guidelines.md`
+
+## Active Packs
+
+- `content/ui/ui-ux-fundamentals.md`: Use before designing, implementing, polishing, or reviewing any interface.
+- `content/ui/web-app-ui.md`: Use for SaaS, dashboard, admin, internal tool, CRM, analytics, and data-heavy web app UI.
+- `content/ui/mobile-app-ui.md`: Use for mobile app UI generation, implementation, and review.
+- `content/product/ux-design.md`: Use before product concepts, UX flows, PRDs, prototypes, feature specs, product critiques, or experience audits.
+- `content/product/product-requirements.md`: Use for PRDs, feature specs, user stories, acceptance criteria, implementation briefs, and product handoff notes.
+- `content/code/code-architecture.md`: Use before creating, restructuring, or reviewing modules, services, APIs, data flows, dependencies, tests, observability, rollout, or major code changes.
+- `content/code/frontend-architecture.md`: Use before creating, restructuring, or reviewing frontend routes, rendering strategy, state placement, data fetching, components, forms, accessibility, performance, or frontend tests.

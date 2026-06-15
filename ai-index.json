@@ -1,0 +1,76 @@
+{
+  "name": "AI Refer",
+  "description": "Open reference packs for AI agents working on UI generation, product design, and code architecture.",
+  "version": "0.1.0",
+  "updated": "2026-06-15",
+  "entrypoints": {
+    "llms": "llms.txt",
+    "pack_creation_protocol": "content/meta/how-to-extract-guidelines.md"
+  },
+  "packs": [
+    {
+      "id": "meta.how-to-extract-guidelines",
+      "title": "How To Extract Guidelines",
+      "path": "content/meta/how-to-extract-guidelines.md",
+      "status": "active",
+      "tags": ["meta", "research", "guideline-authoring"],
+      "when_to_use": "Use before creating or revising any AI Refer reference pack."
+    },
+    {
+      "id": "ui.ui-ux-fundamentals",
+      "title": "UI UX Fundamentals",
+      "path": "content/ui/ui-ux-fundamentals.md",
+      "status": "active",
+      "tags": ["ui", "ux", "visual-design", "interaction-design", "components", "states"],
+      "when_to_use": "Use before designing, implementing, polishing, or reviewing any user interface."
+    },
+    {
+      "id": "ui.web-app-ui",
+      "title": "Web App UI",
+      "path": "content/ui/web-app-ui.md",
+      "status": "active",
+      "tags": ["ui", "web-app", "saas", "dashboard", "admin", "tables", "forms", "data-visualization"],
+      "when_to_use": "Use when designing, implementing, or reviewing SaaS products, dashboards, admin panels, internal tools, CRMs, analytics apps, and data-heavy web workflows."
+    },
+    {
+      "id": "ui.mobile-app-ui",
+      "title": "Mobile App UI",
+      "path": "content/ui/mobile-app-ui.md",
+      "status": "active",
+      "tags": ["ui", "mobile", "app", "ios", "android", "react-native", "flutter", "ux"],
+      "when_to_use": "Use when generating, implementing, or reviewing mobile app interfaces and native-like phone experiences."
+    },
+    {
+      "id": "product.ux-design",
+      "title": "UX Design",
+      "path": "content/product/ux-design.md",
+      "status": "active",
+      "tags": ["product", "ux", "discovery", "research", "flows", "journeys", "information-architecture"],
+      "when_to_use": "Use when creating or reviewing product concepts, UX flows, PRDs, prototypes, feature specs, product critiques, or experience audits."
+    },
+    {
+      "id": "product.product-requirements",
+      "title": "Product Requirements",
+      "path": "content/product/product-requirements.md",
+      "status": "active",
+      "tags": ["product", "requirements", "prd", "user-stories", "acceptance-criteria", "handoff"],
+      "when_to_use": "Use when writing or reviewing PRDs, feature specs, user stories, acceptance criteria, implementation briefs, or product handoff notes."
+    },
+    {
+      "id": "code.code-architecture",
+      "title": "Code Architecture",
+      "path": "content/code/code-architecture.md",
+      "status": "active",
+      "tags": ["code", "architecture", "modules", "boundaries", "contracts", "dependencies", "testing", "observability", "rollout"],
+      "when_to_use": "Use before creating, restructuring, or reviewing modules, services, APIs, data flows, dependencies, tests, observability, rollout, or major code changes."
+    },
+    {
+      "id": "code.frontend-architecture",
+      "title": "Frontend Architecture",
+      "path": "content/code/frontend-architecture.md",
+      "status": "active",
+      "tags": ["code", "frontend", "architecture", "routes", "state", "data-fetching", "components", "accessibility", "performance", "testing"],
+      "when_to_use": "Use before creating, restructuring, or reviewing frontend routes, rendering strategy, state placement, data fetching, components, forms, accessibility, performance, or frontend tests."
+    }
+  ]
+}
